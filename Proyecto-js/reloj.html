@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Estilos CSS-->
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+<!--Moment JS-->
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/locale/es.min.js"></script>
+
+ <!--JS About-->
+ <script type="text/javascript" src="js/reloj.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+		<title>Proyecto con JavaScript</title>
+</head>
+<body>
+	<div id=selectTheme>
+		<div id=toGreen></div>
+		<div id="toBlue"></div>
+		<div id="toRed"></div>	
+	</div>
+	<section id="global">
+		<!-- Cabecera-->
+		<header>
+			<div><h1 id="logo">Proyecto JS</h1></div>
+			<div class="clearfix"></div>
+			<!-- Menu de Cabecera -->
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="reloj.html">Reloj</a></li>
+					<li><a href="about.html">Sobre mi</a></li>
+					<li><a href="contact.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!--*********************-->
+
+		<!--Contenido-->
+		<section id="content">
+			<!--Cargar reloj-->
+			<div id="box">
+				<div id="reloj"></div>
+			</div>
+		<!--************************-->
+		<!-- Lateral con informaión-->
+		<aside id="sidebar">
+			<div id="about"><h4><span>Quien soy?</span></h4>
+				<img src="img/caracol.jpg">
+				<p>Mauris ut interdum nunc. Curabitur eleifend hendrerit neque, non venenatis augue semper eu. Cras iaculis dolor at augue hendrerit, vitae rhoncus metus vestibulum. Fusce laoreet turpis vestibulum porttitor ullamcorper. Nulla id lectus tempus, aliquam arcu quis, accumsan arcu.</p>
+			</div>
+			<!--Input para log in-->
+			<div id="login">
+				<h4>Identificate</h4>
+				<form>
+					<label for="name">Nombre</label>
+					<input type="text" name="name">
+					<label for="name">Correo</label>
+					<input type="text" name="email">
+					<label for="name">Contraseña</label>
+					<input type="text" name="password">
+					<input type="submit" value="Entrar">
+				</form>
+			</div>
+			<!--***************-->
+		</aside> 
+
+		<div class="clearfix"></div>
+<!-- **************-->
+	</section>
+	</section>
+	<!--Footer-->
+<footer>
+	Master de JavaScript de Udemy
+	<a href="#" class="up">Arriba</a>
+</footer>
+<!--***************-->
+</body>
+</html>
